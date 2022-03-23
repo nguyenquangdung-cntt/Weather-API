@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="..//css/styleWeather.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="..//js/controlWeather.js"></script>
+    <link rel="shortcut icon" href="..//img/hinh1.png" type="image/x-icon">
+    <title>Thời Tiết Việt Nam</title>
+</head>
+<body>
+    <div id="menu" class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Thời Tiết</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div id="menu_main" class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="..//html/weatherFetch.html">TP Hồ Chí Minh <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="..//html/weatherHanoi.html">Hà Nội</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <table class="table table-hover" style="margin-top: 20px;">
+            <thead>
+              <tr>
+                <th colspan="2" style="text-align: center;"><h1>Thông Tin Thời Tiết</h1></th>
+              </tr>
+            </thead>
+            <tbody id="weahcm">
+
+            </tbody>
+          </table>
+        <img src="..//img/hinh7.png" alt="...." width="770px" height="400px" style="margin-left: 200px;">
+    </div>
+</body>
+</html>
